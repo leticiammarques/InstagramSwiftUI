@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F262E6829E0FE9E00072C12 /* UserStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F262E6729E0FE9E00072C12 /* UserStackView.swift */; };
+		9F262E6A29E1074200072C12 /* ProfileActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F262E6929E1074200072C12 /* ProfileActionButtonView.swift */; };
+		9F262E6C29E10F3A00072C12 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F262E6B29E10F3A00072C12 /* ImagePicker.swift */; };
+		9F56454829E0E42000D3A3B0 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F56454729E0E42000D3A3B0 /* NotificationCell.swift */; };
+		9F56454A29E0ED3600D3A3B0 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F56454929E0ED3600D3A3B0 /* ProfileHeaderView.swift */; };
 		9F7EAC4E29E08DCA0067A47F /* InstagramSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EAC4D29E08DCA0067A47F /* InstagramSwiftUIApp.swift */; };
 		9F7EAC5229E08DCD0067A47F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7EAC5129E08DCD0067A47F /* Assets.xcassets */; };
 		9F7EAC5529E08DCD0067A47F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7EAC5429E08DCD0067A47F /* Preview Assets.xcassets */; };
@@ -26,6 +31,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F262E6729E0FE9E00072C12 /* UserStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStackView.swift; sourceTree = "<group>"; };
+		9F262E6929E1074200072C12 /* ProfileActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButtonView.swift; sourceTree = "<group>"; };
+		9F262E6B29E10F3A00072C12 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		9F56454729E0E42000D3A3B0 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		9F56454929E0ED3600D3A3B0 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		9F7EAC4A29E08DCA0067A47F /* InstagramSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7EAC4D29E08DCA0067A47F /* InstagramSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramSwiftUIApp.swift; sourceTree = "<group>"; };
 		9F7EAC5129E08DCD0067A47F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				9F7EAC8629E0C94A0067A47F /* Extensions.swift */,
+				9F262E6B29E10F3A00072C12 /* ImagePicker.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -174,6 +185,9 @@
 			isa = PBXGroup;
 			children = (
 				9F7EAC7429E0961F0067A47F /* ProfileView.swift */,
+				9F56454929E0ED3600D3A3B0 /* ProfileHeaderView.swift */,
+				9F262E6729E0FE9E00072C12 /* UserStackView.swift */,
+				9F262E6929E1074200072C12 /* ProfileActionButtonView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -198,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				9F7EAC7629E096320067A47F /* NotificationsView.swift */,
+				9F56454729E0E42000D3A3B0 /* NotificationCell.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -317,19 +332,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F262E6829E0FE9E00072C12 /* UserStackView.swift in Sources */,
 				9F7EAC7329E095EE0067A47F /* FeedView.swift in Sources */,
 				9F7EAC6329E08F6C0067A47F /* ContentView.swift in Sources */,
 				9F7EAC8129E0B55C0067A47F /* PostGridView.swift in Sources */,
 				9F7EAC7529E0961F0067A47F /* ProfileView.swift in Sources */,
 				9F7EAC7929E0963E0067A47F /* SearchView.swift in Sources */,
 				9F7EAC4E29E08DCA0067A47F /* InstagramSwiftUIApp.swift in Sources */,
+				9F262E6C29E10F3A00072C12 /* ImagePicker.swift in Sources */,
 				9F7EAC7B29E0966D0067A47F /* UploadPostView.swift in Sources */,
+				9F56454A29E0ED3600D3A3B0 /* ProfileHeaderView.swift in Sources */,
 				9F7EAC7129E090DD0067A47F /* MainTabView.swift in Sources */,
 				9F7EAC8329E0B7270067A47F /* UserCell.swift in Sources */,
 				9F7EAC7F29E0B2F70067A47F /* SearchBar.swift in Sources */,
 				9F7EAC7729E096320067A47F /* NotificationsView.swift in Sources */,
 				9F7EAC7D29E09D140067A47F /* FeedCell.swift in Sources */,
+				9F262E6A29E1074200072C12 /* ProfileActionButtonView.swift in Sources */,
 				9F7EAC8529E0B7330067A47F /* UserListView.swift in Sources */,
+				9F56454829E0E42000D3A3B0 /* NotificationCell.swift in Sources */,
 				9F7EAC8729E0C94A0067A47F /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
