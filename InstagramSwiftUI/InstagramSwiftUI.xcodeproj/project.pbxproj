@@ -24,6 +24,8 @@
 		9F5BD9D729E5C22D00165F82 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9F5BD9D629E5C22D00165F82 /* FirebaseStorage */; };
 		9F5BD9DB29E5C56800165F82 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9F5BD9DA29E5C56800165F82 /* Kingfisher */; };
 		9F5BD9DD29E5C6C100165F82 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F5BD9DC29E5C6C100165F82 /* GoogleService-Info.plist */; };
+		9F6004FF29F6B91500D1504E /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6004FE29F6B91500D1504E /* AuthViewModel.swift */; };
+		9F60050129F6E40900D1504E /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F60050029F6E40900D1504E /* ImageUploader.swift */; };
 		9F7EAC4E29E08DCA0067A47F /* InstagramSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EAC4D29E08DCA0067A47F /* InstagramSwiftUIApp.swift */; };
 		9F7EAC5229E08DCD0067A47F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7EAC5129E08DCD0067A47F /* Assets.xcassets */; };
 		9F7EAC5529E08DCD0067A47F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7EAC5429E08DCD0067A47F /* Preview Assets.xcassets */; };
@@ -54,6 +56,8 @@
 		9F56454729E0E42000D3A3B0 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		9F56454929E0ED3600D3A3B0 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		9F5BD9DC29E5C6C100165F82 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9F6004FE29F6B91500D1504E /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		9F60050029F6E40900D1504E /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		9F7EAC4A29E08DCA0067A47F /* InstagramSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7EAC4D29E08DCA0067A47F /* InstagramSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramSwiftUIApp.swift; sourceTree = "<group>"; };
 		9F7EAC5129E08DCD0067A47F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -152,6 +156,7 @@
 		9F7EAC5C29E08E9E0067A47F /* API */ = {
 			isa = PBXGroup;
 			children = (
+				9F60050029F6E40900D1504E /* ImageUploader.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 		9F7EAC6E29E0905C0067A47F /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				9F6004FE29F6B91500D1504E /* AuthViewModel.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -388,6 +394,7 @@
 				9F7EAC6329E08F6C0067A47F /* ContentView.swift in Sources */,
 				9F1C6CB529E488B400757E86 /* RegistrationView.swift in Sources */,
 				9F1C6CB929E48F8800757E86 /* CustomTextField.swift in Sources */,
+				9F60050129F6E40900D1504E /* ImageUploader.swift in Sources */,
 				9F7EAC8129E0B55C0067A47F /* PostGridView.swift in Sources */,
 				9F7EAC7529E0961F0067A47F /* ProfileView.swift in Sources */,
 				9F7EAC7929E0963E0067A47F /* SearchView.swift in Sources */,
@@ -403,6 +410,7 @@
 				9F7EAC7729E096320067A47F /* NotificationsView.swift in Sources */,
 				9F7EAC7D29E09D140067A47F /* FeedCell.swift in Sources */,
 				9F262E6A29E1074200072C12 /* ProfileActionButtonView.swift in Sources */,
+				9F6004FF29F6B91500D1504E /* AuthViewModel.swift in Sources */,
 				9F7EAC8529E0B7330067A47F /* UserListView.swift in Sources */,
 				9F56454829E0E42000D3A3B0 /* NotificationCell.swift in Sources */,
 				9F1C6CB329E488A200757E86 /* LoginView.swift in Sources */,
